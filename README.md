@@ -5,12 +5,11 @@
 
 # What
 
-A Go program with no human provided knowledge. Using MCTS (but without
+A Hex program with no human provided knowledge. Using MCTS (but without
 Monte Carlo playouts) and a deep residual convolutional neural network stack.
 
 This is a fairly faithful reimplementation of the system described
-in the Alpha Go Zero paper "[Mastering the Game of Go without Human Knowledge](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)".
-For all intents and purposes, it is an open source AlphaGo Zero.
+in the Alpha Go Zero paper "[Mastering the Game of Go without Human Knowledge](https://deepmind.com/documents/119/agz_unformatted_nature.pdf)". Modified for Hex.
 
 # Wait, what?
 
@@ -44,7 +43,7 @@ the distributed effort. But you can still play, especially if you are patient.
 
 ### Windows
 
-Head to the Github releases page at https://github.com/gcp/leela-zero/releases,
+Head to the Github releases page at https://github.com/GCRhoads/,
 download the latest release, unzip, and launch autogtp.exe. It will connect to
 the server automatically and do its work in the background, uploading results
 after each game. You can just close the autogtp window to stop it.
